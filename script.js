@@ -451,7 +451,7 @@ function showEnding(){
 
     <div class="storyCard" style="text-align:center;">
 
-        <h2>🎉 Happy 18th Birthday Avni ❤️</h2>
+        <h2>🎉 Once again Happy 18th Birthday Avni ❤️</h2>
 
         <p>
 
@@ -459,11 +459,11 @@ function showEnding(){
 
         <br><br>
 
-        I hope this little website made you smile.
+        I hope this little effort made you smile.
 
         <br><br>
 
-        I love u ❤️❤️
+        I love u to the moon and back too ❤️❤️
 
         </p>
 
