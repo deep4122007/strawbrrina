@@ -456,13 +456,9 @@ function showEnding(){
         <p>
 
         Thank you for being the most beautiful part of my life.
-
         <br><br>
-
         I hope this little effort made you smile.
-
         <br><br>
-
         I love u to the moon and back too ❤️❤️
 
         </p>
