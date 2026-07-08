@@ -45,9 +45,9 @@ const websiteData = {
 
             title:"3rd May 2026 🌙",
 
-            text:`The night before your NEET exam...
+            text:`The night before your NEET exam🤣🤣🤣
 
-A random Skribbl lobby...
+A random Skribbl lobby... u named as Strawbrrina and i told to kick u out
 
 Two complete strangers...
 
@@ -65,10 +65,7 @@ Some wait weeks.
 
 I couldn't even wait one night.
 
-That little "ily 😘"
-
-was probably the craziest thing I've ever done...
-
+That "ily 😘" was probably the craziest thing I've ever done...
 and I'd still do it again.`
 
         },
@@ -79,17 +76,13 @@ and I'd still do it again.`
 
             text:`We laughed.
 
-We fought.
-
-We cried.
+We fought endlessly (we still tho☹️☹️☹️☹️)
 
 We misunderstood each other.
 
 We even stopped talking.
 
-But somehow...
-
-love always found its way back to us.`
+But somehow love always found its way back to us.😘😘😘😘😘`
 
         },
 
@@ -97,15 +90,16 @@ love always found its way back to us.`
 
             title:"14th May",
 
-            text:`When your message appeared...
+            text:`When your long paragraph appeared...
 
 everything changed again.
 
-"I can't tend to lose u."
+"You're really a nice person and i can't tend to lose u"
 
 I'll never forget those words.
 
-Thank you for coming back.`
+Thank you for coming back.
+I am so grateful to have you by my side.`
 
         }
 
@@ -121,9 +115,9 @@ Thank you for coming back.`
 
             image:"assets/images/photo1.jpg",
 
-            title:"My Sunshine ☀️",
+            title:"My kuchu puchu",
 
-            text:"EDIT THIS ❤️",
+            text:"Can't take my eyes off u 😍😍 ",
 
             song:""
 
@@ -133,9 +127,9 @@ Thank you for coming back.`
 
             image:"assets/images/photo2.jpg",
 
-            title:"Beautiful Smile",
+            title:"The baddest girl ik",
 
-            text:"EDIT THIS ❤️",
+            text:"U r the Lil Uzi to my Carti😉😉",
 
             song:""
 
@@ -145,9 +139,9 @@ Thank you for coming back.`
 
             image:"assets/images/photo3.jpg",
 
-            title:"The Cutest Girl",
+            title:"Meri pyaari Avni",
 
-            text:"EDIT THIS ❤️",
+            text:"I love u so so so much❤️❤️",
 
             song:""
 
@@ -157,9 +151,9 @@ Thank you for coming back.`
 
             image:"assets/images/photo4.jpg",
 
-            title:"Forever Favourite",
+            title:"Meri biwi 😍😍",
 
-            text:"EDIT THIS ❤️",
+            text:"Yeh 500 mujhe dede plssssss 🙏🙏🙏🙏🙏🙏🙏",
 
             song:""
 
@@ -175,9 +169,9 @@ Thank you for coming back.`
 
         file:"assets/videos/hair.mp4",
 
-        title:"Your New Hair ❤️",
+        title:"Your New Haircolour ❤️",
 
-        text:"No matter what hairstyle you choose, you'll always be the prettiest girl to me."
+        text:"No matter what hairstyle you choose, you'll always be the prettiest girl to me.You the absolute FUCKING BEST💯💯💯"
 
     },
 
@@ -223,25 +217,23 @@ Dear Avni,
 
 Happy 18th Birthday ❤️
 
-It's honestly unbelievable how one random night brought you into my life.
+It's honestly unbelievable how one random game which I never played b4 brought you into my life.
 
-A simple game...
-
-A simple message...
+A simple message from my side
 
 And suddenly I had someone who became so important to me.
 
 I know I haven't always been the perfect boyfriend.
 
-I've made mistakes.
+I always make mistakes.
 
-I've hurt you.
+I hurt you.
 
 I've made you cry.
 
 For all of that...
 
-I'm truly sorry.
+I'm truly SORRY SORRY SORRY 🙏🙏🙏🙏🙏
 
 Thank you for giving me another chance.
 
@@ -259,11 +251,13 @@ I can celebrate your birthday beside you instead of through a screen.
 
 Happy 18th Birthday once again.
 
-I love u ❤️❤️
+I love u so so so much❤️❤️
+
+Mwaaaaaaaaaaaaaaaaaaaaaaaahhhhhhhhhh😘😘😘😘😘😘
 
 Forever yours,
 
-Souradeep
+deep
 
 `
 
