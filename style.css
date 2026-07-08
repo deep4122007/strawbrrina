@@ -1,0 +1,852 @@
+/* ==========================================
+   Happy Birthday Avni ❤️
+   STYLE.CSS - PART 1
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(180deg,#050816,#111b42,#1d2f6f);
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* ==========================
+   Animated Background
+========================== */
+
+#stars,
+#lilies{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    z-index:-2;
+}
+
+.star{
+    position:absolute;
+    width:2px;
+    height:2px;
+    background:white;
+    border-radius:50%;
+    animation:twinkle 3s infinite ease-in-out;
+}
+
+@keyframes twinkle{
+
+0%,100%{
+opacity:.2;
+transform:scale(.5);
+}
+
+50%{
+opacity:1;
+transform:scale(1.4);
+}
+
+}
+
+.lily{
+
+position:absolute;
+
+pointer-events:none;
+
+user-select:none;
+
+opacity:.85;
+
+animation:fall linear infinite;
+
+filter:drop-shadow(0 0 8px rgba(255,255,255,.4));
+
+}
+
+@keyframes fall{
+
+0%{
+transform:translateY(-120px) rotate(0deg);
+}
+
+100%{
+transform:translateY(110vh) rotate(360deg);
+}
+
+}
+
+/* ==========================
+   Glass Card
+========================== */
+
+.glass{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:25px;
+
+padding:45px;
+
+width:min(90%,430px);
+
+box-shadow:0 20px 50px rgba(0,0,0,.35);
+
+text-align:center;
+
+}
+
+/* ==========================
+   Password Screen
+========================== */
+
+#passwordPage{
+
+display:flex;
+
+justify-content:center;
+
+align-items:center;
+
+min-height:100vh;
+
+padding:30px;
+
+}
+
+#passwordPage h1{
+
+font-size:60px;
+
+margin-bottom:15px;
+
+}
+
+#passwordPage h2{
+
+margin-bottom:15px;
+
+font-size:32px;
+
+}
+
+#passwordPage p{
+
+opacity:.9;
+
+margin-bottom:25px;
+
+line-height:1.8;
+
+}
+
+#passwordInput{
+
+width:100%;
+
+padding:15px;
+
+border:none;
+
+border-radius:12px;
+
+font-size:17px;
+
+margin-bottom:18px;
+
+outline:none;
+
+}
+
+#unlockBtn{
+
+width:100%;
+
+padding:16px;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+background:#ff4f8b;
+
+color:white;
+
+font-size:18px;
+
+transition:.3s;
+
+}
+
+#unlockBtn:hover{
+
+background:#ff78a8;
+
+transform:translateY(-3px);
+
+}
+
+#wrongPassword{
+
+color:#ffb0c7;
+
+margin-top:15px;
+
+font-weight:600;
+
+min-height:24px;
+
+}
+
+/* ==========================
+   Utility
+========================== */
+
+.hidden{
+    display:none !important;
+}/* ==========================================
+   LANDING PAGE
+========================================== */
+
+#mainWebsite{
+    min-height:100vh;
+}
+
+#landing{
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:30px;
+}
+
+#landing h2{
+    font-size:90px;
+    animation:giftFloat 3s ease-in-out infinite;
+}
+
+@keyframes giftFloat{
+
+0%,100%{
+transform:translateY(0px);
+}
+
+50%{
+transform:translateY(-15px);
+}
+
+}
+
+#landing h1{
+
+font-size:60px;
+
+font-weight:700;
+
+margin-top:20px;
+
+}
+
+#landing h3{
+
+font-family:'Great Vibes',cursive;
+
+font-size:40px;
+
+margin-top:10px;
+
+color:#ffd6ea;
+
+}
+
+#landing p{
+
+max-width:700px;
+
+font-size:21px;
+
+line-height:1.8;
+
+margin-top:30px;
+
+opacity:.9;
+
+}
+
+#openGift{
+
+margin-top:40px;
+
+padding:18px 45px;
+
+font-size:20px;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+background:#ff4f8b;
+
+color:white;
+
+transition:.35s;
+
+box-shadow:0 10px 30px rgba(255,79,139,.45);
+
+}
+
+#openGift:hover{
+
+transform:translateY(-5px) scale(1.05);
+
+background:#ff76a8;
+
+}
+
+
+/* ==========================================
+   STORY SECTION
+========================================== */
+
+#story{
+
+min-height:100vh;
+
+display:flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+padding:80px 25px;
+
+}
+
+#storyContainer{
+
+width:100%;
+
+max-width:900px;
+
+}
+
+.storyCard{
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.12);
+
+border-radius:30px;
+
+padding:45px;
+
+box-shadow:0 20px 45px rgba(0,0,0,.35);
+
+animation:fadeUp .8s ease;
+
+}
+
+.storyCard h2{
+
+font-size:42px;
+
+margin-bottom:25px;
+
+color:#ffd6ea;
+
+}
+
+.storyCard p{
+
+font-size:20px;
+
+line-height:2;
+
+white-space:pre-line;
+
+}
+
+#nextStory{
+
+margin-top:35px;
+
+padding:16px 40px;
+
+font-size:18px;
+
+border:none;
+
+border-radius:50px;
+
+cursor:pointer;
+
+background:#ff4f8b;
+
+color:white;
+
+transition:.35s;
+
+}
+
+#nextStory:hover{
+
+transform:translateY(-4px);
+
+background:#ff76a8;
+
+}
+
+
+/* ==========================================
+   ANIMATIONS
+========================================== */
+
+@keyframes fadeUp{
+
+0%{
+
+opacity:0;
+
+transform:translateY(50px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0px);
+
+}
+
+}/* ==========================================
+   PHOTO GALLERY
+========================================== */
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    margin-top:50px;
+}
+
+.photoCard{
+    background:rgba(255,255,255,.08);
+    border-radius:25px;
+    overflow:hidden;
+    backdrop-filter:blur(20px);
+    transition:.4s;
+    box-shadow:0 15px 35px rgba(0,0,0,.3);
+}
+
+.photoCard:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.photoCard img{
+
+width:100%;
+
+max-height:70vh;
+
+object-fit:cover;
+
+border-radius:20px;
+
+margin-bottom:25px;
+
+}
+
+.photoInfo{
+
+text-align:center;
+
+padding:30px;
+
+}
+
+.photoInfo h3{
+    color:#ffd6ea;
+    margin-bottom:12px;
+    font-size:24px;
+}
+
+.photoInfo p{
+    line-height:1.8;
+}
+
+/* ==========================================
+   VIDEO SECTION
+========================================== */
+
+.videoCard{
+    margin:70px auto;
+    max-width:850px;
+    background:rgba(255,255,255,.08);
+    border-radius:25px;
+    padding:30px;
+    backdrop-filter:blur(20px);
+    text-align:center;
+}
+
+.videoCard video{
+    width:100%;
+    border-radius:20px;
+    margin-top:20px;
+}
+
+/* ==========================================
+   FAVOURITES
+========================================== */
+
+.favourites{
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:35px;
+    max-width:900px;
+    margin:50px auto;
+
+}
+
+.favCard{
+
+    background:rgba(255,255,255,.08);
+    border-radius:22px;
+
+    padding:25px;
+
+    text-align:center;
+
+    backdrop-filter:blur(10px);
+
+    transition:.35s;
+
+}
+
+.favCard:hover{
+
+    transform:translateY(-8px) scale(1.03);
+
+}
+
+.favImage{
+
+    width:170px;
+    height:170px;
+
+    border-radius:18px;
+
+    object-fit:cover;
+
+}
+
+.favCard h3{
+
+    color:#ffd8ea;
+
+    margin:10px 0;
+
+}
+
+.favCard p{
+
+    font-size:22px;
+
+}
+/* ==========================================
+   LETTER
+========================================== */
+
+.letterCard{
+    max-width:900px;
+    margin:70px auto;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(20px);
+    border-radius:25px;
+    padding:45px;
+    line-height:2;
+}
+
+.letterCard h2{
+    color:#ffd6ea;
+    margin-bottom:25px;
+    font-size:40px;
+}
+
+.letterCard p{
+    white-space:pre-line;
+    font-size:18px;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media(max-width:768px){
+
+#landing h1{
+font-size:40px;
+}
+
+#landing h3{
+font-size:28px;
+}
+
+#landing p{
+font-size:17px;
+}
+
+.storyCard{
+padding:30px;
+}
+
+.storyCard h2{
+font-size:30px;
+}
+
+.storyCard p{
+font-size:17px;
+}
+
+.photoCard img{
+height:280px;
+}
+
+.letterCard{
+padding:30px;
+}
+
+.letterCard h2{
+font-size:30px;
+}
+
+}
+
+/* ==========================================
+   SCROLLBAR
+========================================== */
+
+::-webkit-scrollbar{
+width:8px;
+}
+
+::-webkit-scrollbar-track{
+background:#111b42;
+}
+
+::-webkit-scrollbar-thumb{
+background:#ff4f8b;
+border-radius:50px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+background:#ff76a8;
+}/* ===============================
+   GIFT BOX
+================================ */
+
+#giftBox{
+
+margin-top:50px;
+
+cursor:pointer;
+
+display:flex;
+
+flex-direction:column;
+
+align-items:center;
+
+animation:giftFloat 3s infinite ease-in-out;
+
+}
+
+.box{
+
+width:140px;
+
+height:120px;
+
+background:#ff4f8b;
+
+border-radius:10px;
+
+position:relative;
+
+}
+
+.box::before{
+
+content:"";
+
+position:absolute;
+
+left:50%;
+
+transform:translateX(-50%);
+
+width:18px;
+
+height:120px;
+
+background:white;
+
+}
+
+.box::after{
+
+content:"";
+
+position:absolute;
+
+top:50%;
+
+transform:translateY(-50%);
+
+width:140px;
+
+height:18px;
+
+background:white;
+
+}
+
+.lid{
+
+width:150px;
+
+height:28px;
+
+background:#ff76a8;
+
+border-radius:8px;
+
+margin-bottom:-5px;
+
+transition:.8s;
+
+}
+
+#giftBox:hover .lid{
+
+transform:translateY(-18px) rotate(-8deg);
+
+}
+
+#giftBox p{
+
+margin-top:20px;
+
+font-size:20px;
+
+}/* ===============================
+   CINEMATIC INTRO
+================================ */
+
+#introScreen{
+
+min-height:100vh;
+
+display:none;
+
+justify-content:center;
+
+align-items:center;
+
+padding:30px;
+
+}
+
+.introCard{
+
+max-width:700px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border-radius:30px;
+
+padding:50px;
+
+text-align:center;
+
+animation:fadeUp 1s ease;
+
+}
+
+.introCard h2{
+
+font-size:70px;
+
+margin-bottom:20px;
+
+}
+
+.introCard h1{
+
+font-size:46px;
+
+margin-bottom:25px;
+
+}
+
+.introCard p{
+
+font-size:20px;
+
+line-height:2;
+
+margin-bottom:35px;
+
+}#nextPhoto{
+
+margin-top:25px;
+
+padding:15px 35px;
+
+font-size:18px;
+
+border:none;
+
+border-radius:40px;
+
+cursor:pointer;
+
+background:#ff4f8b;
+
+color:white;
+
+transition:.3s;
+
+}
+
+#nextPhoto:hover{
+
+transform:translateY(-3px);
+
+background:#ff76a8;
+
+}
