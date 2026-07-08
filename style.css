@@ -849,4 +849,36 @@ transform:translateY(-3px);
 
 background:#ff76a8;
 
+}/* ==========================
+   MOBILE FIX
+========================== */
+
+@media (max-width: 768px) {
+
+    .favourites{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+        padding: 0 15px;
+    }
+
+    .favCard{
+        padding: 18px;
+    }
+
+    .favImage{
+        width: 90px;
+        height: 90px;
+        object-fit: contain;
+        margin-bottom: 12px;
+    }
+
+    .favCard h3{
+        font-size: 18px;
+    }
+
+    .favCard p{
+        font-size: 15px;
+    }
+
 }
