@@ -9,10 +9,10 @@ const websiteData = {
     // PASSWORD
     // =====================================
 
-    password: "09072008",
+    password: "090708",
 
     // =====================================
-    // BASIC INFO
+    // BASIC INFOgit add .
     // =====================================
 
     girlName: "Avni",
